@@ -22,7 +22,7 @@ header, main, footer {
 
 header {
   color: #fff;
-  text-align: left;
+  text-align: center;
   background-position: left;
   background-image: url('img/bg.jpg');
   background-repeat: no-repeat;
@@ -41,9 +41,9 @@ header section {
   height: 150px;
   border-radius: 50%;
   left: 0;
-  /*right: 0;
+  right: 0;
   margin-left: auto;
-  margin-right: auto;*/
+  margin-right: auto;
   background-size: 109%;
   background-repeat: no-repeat;
 }
