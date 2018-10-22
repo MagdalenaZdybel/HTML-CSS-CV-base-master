@@ -1,0 +1,63 @@
+/*@import url('https://fonts.googleapis.com/css?family=Krub');*/
+
+body {
+  margin: 0;
+  font-family: 'Krub', sans-serif;
+}
+
+article {
+  padding:0 1em;
+}
+
+section{
+  margin: 1em;
+  padding: 1em;
+}
+
+header, main, footer {
+  margin: 0 auto;
+}
+
+header {
+  color: #000;
+  text-align: center;
+  background-position: fixed;
+  background-image: url('img/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2rem;
+}
+
+header section {
+  margin: 0 auto;
+}
+
+.headerMyPhoto {
+
+  /*height: 45rem;*/
+}
+
+h1 {
+  margin: 1em 0;
+}
+
+main {
+  max-width: 1140px;
+}
+
+.course {
+}
+
+.course .title {
+}
+
+.course .descrition {
+}
+
+.school span {
+  color: #A7B8BF;
+}
+
+footer {
+ padding: 1em;
+}
