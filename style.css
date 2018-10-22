@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Krub');
 
 body {
-  margin: 0;
+  margin: 0px;
   font-family: 'Krub', sans-serif;
   font-size: 16px;
   line-height: 3.8em;
@@ -14,7 +14,6 @@ article {
 section{
   margin: 1em;
   padding: 1em;
-  margin: auto;
 }
 
 header, main, footer {
