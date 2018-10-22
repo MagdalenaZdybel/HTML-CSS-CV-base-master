@@ -1,8 +1,10 @@
-/*@import url('https://fonts.googleapis.com/css?family=Krub');*/
+@import url('https://fonts.googleapis.com/css?family=Krub');
 
 body {
   margin: 0;
   font-family: 'Krub', sans-serif;
+  font-size: 16px;
+  line-height: 3.8em;
 }
 
 article {
@@ -19,9 +21,9 @@ header, main, footer {
 }
 
 header {
-  color: #000;
-  text-align: center;
-  background-position: fixed;
+  color: #fff;
+  text-align: left;
+  background-position: left;
   background-image: url('img/bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -30,15 +32,24 @@ header {
 
 header section {
   margin: 0 auto;
+  max-width: 650px;
 }
 
 .headerMyPhoto {
-
-  /*height: 45rem;*/
+  background-image: url('img/avatar.jpg');
+  max-width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  left: 0;
+  /*right: 0;
+  margin-left: auto;
+  margin-right: auto;*/
+  background-size: 109%;
+  background-repeat: no-repeat;
 }
 
 h1 {
-  margin: 1em 0;
+  margin: 1em auto;
 }
 
 main {
