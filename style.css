@@ -4,11 +4,11 @@ body {
   margin: 0px;
   font-family: 'Krub', sans-serif;
   font-size: 16px;
-  line-height: 3.8em;
+  line-height: 2em;
 }
 
 article {
-  padding:0 1em;
+  padding: 0 1em;
 }
 
 section{
@@ -27,12 +27,12 @@ header {
   background-image: url('img/bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 2rem;
+  padding: 2em;
 }
 
 header section {
   margin: 0 auto;
-  max-width: 650px;
+  max-width: 640px;
 }
 
 .headerMyPhoto {
@@ -52,17 +52,43 @@ h1 {
   margin: 1em auto;
 }
 
+h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
 main {
   max-width: 1140px;
 }
-
+main section:not(:last-child) {
+  border-bottom: 1px solid rgb(202, 203, 209);
+}
+main section {
+  border-bottom: none;
+}
+.title {
+  text-transform: uppercase;
+}
 .course {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .course .title {
+  color: rgb(108, 108, 153);
+  -ms-flex: 0 0 33.3%;
+  flex: 0 0 33.3%;
+  max-width: 33%;
 }
 
 .course .descrition {
+  -ms-flex: 0 0 66.6%;
+  flex: 0 0 66.6%;
+  max-width: 66.6%;
+}
+.course .descrition p {
+  padding-left: 1em;
 }
 
 .school span {
